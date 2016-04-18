@@ -1,0 +1,16 @@
+create database drupal;
+create user 'edgar'@'edgar.edu';
+update mysql.user set password-password('toor') where user='edgar';
+update mysql.user set password=password('toor') where user='edgar';
+grant all privileges on drupal.* to 'edgar'@'edgar.edu';
+flush privileges;
+show grants for 'edgar'@'edgar.edu';
+create user 'edgar2'@'localhost';
+update mysql.user set password=password('toor') where user='edgar2';
+grant all privileges on drupal.* to 'edgar2'@'localhost';
+show grants for 'edgar'@'localhost';
+show grants for 'edgar2'@'localhost';
+flush privileges;
+history
+
+

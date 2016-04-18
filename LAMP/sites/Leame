@@ -1,0 +1,20 @@
+Hola Profesor Emanuel,
+
+Entiendo que en este directorio solicito un archivo 'settings.conf', o #configuracion en drupal.
+Creo que por la manera de yo haber hecho este proyecto algunas cosas no son iguales en mi 
+instalacion de este servidor LAMP y el que usted tiene en mente.
+
+Esto lo digo porque no hay un archivo settings.conf ni ningun .conf en /var/www/html/edgar 
+(mi drupal).
+
+Al dia de ayer, dia de la ultima clase, yo ya habia logrado instalar el server. El unico problema
+es que al poner el nombre de mi server, edgar.edu en el browser no direccionaba al instalador
+de drupal localhost/core/install.php Tenia que especificar el IP.
+
+Eso lo logre modificando el archivo /etc/hosts. Lo agrego aqui a esta carpeta como ejemplo.
+
+Mi historial de MySQL esta asi como el historial de Root. No use en ningun momento el usuario
+normal, empeze dessde el inicio con sudo su - por lo que no agrego historial de usuario
+'normal'porque no hay nada q documentar.
+
+cualquier duda a disposicion.

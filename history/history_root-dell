@@ -1,0 +1,70 @@
+    1  df
+    2  umount /dev/sda1
+    3  lsof
+    4  df
+    5  umount /dev/sdb1
+    6  mkfs.vfat /dev/sdb1
+    7  exit
+    8  apt-get install apache2 -y
+    9  apt-get install php5 libapache2-mod-php5 -y
+   10  /etc/init.d/apache2 restart
+   11  vim /var/www/html/test.php
+   12  vi /var/www/html/test.php
+   13  apt-get install mysql-server -y
+   14  apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin -y
+   15  vi /etc/php5/apache2/php.ini
+   16  cd /etc/apache2/
+   17  ls
+   18  vi apache2.conf
+   19  vi /etc/apache2/httpd.conf
+   20  /etc/init.d/apache2 restart
+   21  mysql -u root -p
+   22  cd /var/www/html
+   23  ls
+   24  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+   25  tar xvzf drupal-7.43.tar.gz
+   26  ls
+   27  mv drupal-7.43 edgar
+   28  ls
+   29  ls -la
+   30  chown -R www-data.www-data edgar
+   31  cd /edgara
+   32  cd /edgar
+   33  cd edgar/
+   34  ls -la
+   35  cd /etc/apache2/sites-available/
+   36  cp 000-default.conf edgar.conf
+   37  vi edgar.conf 
+   38  cd /var/www/
+   39  cd /html
+   40  cd html/
+   41  ls
+   42  fg
+   43  cd /etc/apache2/sites-available/
+   44  apt-get install vim -y
+   45  vim edgar.conf
+   46  a2ensite edgar
+   47  vim /etc/apache2/apache2.conf 
+   48  /etc/init.d/apache2 reload
+   49  vim /etc/apache2/ports.conf 
+   50  ls
+   51  vim edgar.conf
+   52  cd /var/www/html/edgar/
+   53  ls
+   54  ip -4 addr
+   55  a2enmond vhost_alias rewrite
+   56  a2enmod vhost_alias rewrite
+   57  /etc/init.d/apache2 reload
+   58  vim /etc/hosts
+   59  /etc/init.d/apache2 reload
+   60  ip -4 addr
+   61  vim /etc/hosts
+   62  /etc/init.d/apache2 reload
+   63  mysql -u edgar -ppassword drupal
+   64  mysql -u root -p
+   65  /etc/init.d/apache2 reload
+   66  pwd
+   67  cd /home/edgar
+   68  ls
+   69  cd Documents
+   70  history > historia.txt
